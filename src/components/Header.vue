@@ -34,6 +34,9 @@
           </div>
         </div>
       </div>
+      <div class="test">
+        test1212
+      </div>
     </div>
   </body>
 </template>
@@ -49,8 +52,9 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style>
 body {
   margin: 0;
 }
+
 </style>
