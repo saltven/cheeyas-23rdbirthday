@@ -18,15 +18,28 @@
         :clickEffect="true"
         clickMode="push"
       >
-      <div class="nav-bar">
-
-      </div>
       </vue-particles>
+      <div class="nav-bar">
+        <div class="nav-items">
+          <div class="logo">
+            <h1>SZ</h1>
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li>Star Map</li>
+              <li>Star Chart</li>
+              <li>Wishes</li>
+              <li>Submit A Wish</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </template>
 
 <script>
+import '../assets/_main.scss'
 export default {
   name: 'Header',
   props: {
@@ -36,16 +49,8 @@ export default {
 </script>
 
 
-<style>
+<style lang="scss">
 body {
   margin: 0;
 }
-.header-wrap {
-  background: #000;
-}
-.particle {
-  height: 100vh;
-}
-
-
 </style>
