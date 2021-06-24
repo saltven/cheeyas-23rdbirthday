@@ -6,7 +6,6 @@
   .nav-bar {
     height: 5rem;
     width: 100%;
-    background-color: white;
     position: absolute;
     top: 5%;
     .nav-items {
@@ -14,22 +13,36 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      .logo {
-        float: left;
+      div:first-child {
+        padding-right: 10rem;
+        margin-left: 5rem;
+        h1 {
+          font-size: 40px;
+          font-weight: 900;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif
+        }
       }
-      .nav-links {
+      div:nth-child(2){
+        padding-left: 35rem;
         ul {
           display: flex;
           flex-direction: row;
           justify-content: center;
-          padding-left: 10px;
           list-style: none;
           li {
-            padding-left: 20px;
-            
+            padding-left: 100px;
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           }
         }
       }
+      .logo {
+        float: left;
+      }
+      
     }
   }
   .test {

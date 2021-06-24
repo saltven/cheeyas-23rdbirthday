@@ -26,10 +26,10 @@
           </div>
           <div class="nav-links">
             <ul>
-              <li>Star Map</li>
-              <li>Star Chart</li>
-              <li>Wishes</li>
-              <li>Submit A Wish</li>
+              <li>STAR MAP</li>
+              <li>STAR CHART</li>
+              <li>WISHES</li>
+              <li>SUBMIT A WISH</li>
             </ul>
           </div>
         </div>
