@@ -20,20 +20,15 @@
       >
       </vue-particles>
       <div class="nav-bar">
-        <div class="nav-items">
-          <div class="logo">
-            <h1>SZ</h1>
+        <div>
+          <div id="mobile-nav-icon" v-if="mobileView">
+            <font-awesome-icon id="nav-mobile" :icon="['fas','fa-bar']"/>
           </div>
-          <div class="nav-links">
-            <ul>
-              <li>STAR MAP</li>
-              <li>STAR CHART</li>
-              <li>WISHES</li>
-              <li>SUBMIT A WISH</li>
-            </ul>
-          </div>
+          <Navbar v-if="!mobileView" />
         </div>
+        
       </div>
+
       <div class="test">
         test1212
       </div>
@@ -43,11 +38,30 @@
 
 <script>
 import '../assets/_main.scss'
+import Navbar from './Navbar'
 export default {
   name: 'Header',
+  data() {
+    return {
+      mobileView: true,
+      showNav: false
+    };
+  },
+  components: {
+    Navbar
+  },
+  methods: {
+    handleView(){
+      this.mobileView = window.innerWidth <= 1024;
+    }
+  },
+  created() {
+    this.handleView();
+  },
   props: {
     
   }
+  
 }
 </script>
 
@@ -55,6 +69,9 @@ export default {
 <style>
 body {
   margin: 0;
+}
+#nav-mobile {
+  color: white;
 }
 
 </style>
