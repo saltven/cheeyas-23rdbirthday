@@ -20,13 +20,7 @@
       >
       </vue-particles>
       <div class="nav-bar">
-        <div>
-          <div id="mobile-nav-icon" v-if="mobileView">
-            <font-awesome-icon id="nav-mobile" :icon="['fas','fa-bar']"/>
-          </div>
-          <Navbar v-if="!mobileView" />
-        </div>
-        
+          <Navbar/>
       </div>
 
       <div class="test">
