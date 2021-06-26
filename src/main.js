@@ -11,7 +11,8 @@ Vue.config.productionTip = false
 Vue.use(VueParticles)
 
 library.add(faUserSecret)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('f-a-i', FontAwesomeIcon)
+Vue.config.productionTip = false
 
 Vue.use(PortalVue)
 Vue.use(BootstrapVue)

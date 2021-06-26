@@ -19,10 +19,27 @@
 <script>
 import '../assets/_main.scss'
 export default {
-  name: 'Navbar',
-  props: {
-    
-  }
+    name: 'Navbar',
+    data() {
+        return {
+            mobileView: true,
+            showNav: false
+        };
+    },
+    components: {
+        
+    },
+    methods: {
+        handleView(){
+        this.mobileView = window.innerWidth <= 990;
+     }
+    },
+    created() {
+        this.handleView();
+    },
+    props: {
+        
+    }
 }
 </script>
 <style lang="">
