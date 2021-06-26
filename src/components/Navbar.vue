@@ -1,6 +1,6 @@
 <template>
-    <div>
-    <b-navbar toggleable="lg" type="dark" class="nav-items">
+    <div class="nav-items">
+    <b-navbar toggleable="lg" type="dark" >
         <b-navbar-brand href="#" class="logo">SZ</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -22,20 +22,17 @@ export default {
     name: 'Navbar',
     data() {
         return {
-            mobileView: true,
-            showNav: false
+           
         };
     },
     components: {
         
     },
     methods: {
-        handleView(){
-        this.mobileView = window.innerWidth <= 990;
-     }
+        
     },
     created() {
-        this.handleView();
+       
     },
     props: {
         

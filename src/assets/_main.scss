@@ -9,7 +9,7 @@
     position: absolute;
     top: 0;
     .nav-items {
-      margin: 30px 40px;
+      margin: 30px 30px;
       .logo {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         padding-left: 5%;
@@ -43,6 +43,24 @@
         font-size: 70px;
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        span.typed-text {
+          color: #D2B94B;
+        }
+        span.cursor {
+          display: inline-block;
+          margin-left: 3px;
+          width: 4px;
+          background-color: #fff;
+          animation: cursorBlink 1s infinite;
+        }
+        span.cursor.typing {
+          animation: none;
+        }
+      }
+      @keyframes cursorBlink {
+        49% { background-color: #fff; }
+        50% { background-color: transparent; }
+        99% { background-color: transparent; }
       }
     }
     .date {
@@ -86,9 +104,17 @@
     }
   }
 }
-@media (min-width: 1301px){
+@media (min-width: 1301px) and (max-width: 1500px){
   .nav-items ul {
     margin-left: 40%;
+    li {
+      padding-left: 5rem;
+    }
+  }
+}
+@media (min-width: 1501px){
+  .nav-items ul {
+    margin-left: 50%;
     li {
       padding-left: 5rem;
     }
