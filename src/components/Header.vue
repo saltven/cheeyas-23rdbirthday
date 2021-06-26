@@ -20,11 +20,14 @@
       >
       </vue-particles>
       <div class="nav-bar">
-        <div>
-          <div id="mobile-nav-icon" v-if="mobileView">
-            <font-awesome-icon id="nav-mobile" :icon="['fas','fa-bar']"/>
-          </div>
-          <Navbar v-if="!mobileView" />
+          <Navbar/>
+      </div>
+      <div class="title-text">
+        <div class="title">
+          <h1 id="bday-title">Happy Birthday, Cheeya!</h1>
+        </div>
+        <div class="date">
+          <h3>05/08/2021</h3>
         </div>
         
       </div>
@@ -43,20 +46,17 @@ export default {
   name: 'Header',
   data() {
     return {
-      mobileView: true,
-      showNav: false
+     
     };
   },
   components: {
     Navbar
   },
   methods: {
-    handleView(){
-      this.mobileView = window.innerWidth <= 1024;
-    }
+   
   },
   created() {
-    this.handleView();
+    
   },
   props: {
     
