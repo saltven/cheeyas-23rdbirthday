@@ -32,11 +32,6 @@
         <div class="date">
           <h3>05/08/2021</h3>
         </div>
-        
-      </div>
-
-      <div class="test">
-        test1212
       </div>
     </div>
   </body>
