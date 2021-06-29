@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <StarMap/>
+    <StarChart/>
   </div>
 </template>
 
@@ -10,12 +11,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Header from './components/Header.vue'
 import StarMap from './components/StarMap.vue'
+import StarChart from './components/StarChart.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    StarMap
+    StarMap,
+    StarChart
   }
 }
 </script>

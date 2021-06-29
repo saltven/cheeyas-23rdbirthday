@@ -13,6 +13,7 @@
       .logo {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         padding-left: 5%;
+        margin-left: 30px;
         font-size: 40px;
         font-weight: 600;
         animation: fadein 3s;
@@ -100,12 +101,64 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 35px;
     h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: black;
+    }
+    p {
+      text-align: center;
+      font-family:'Courier New', Courier, monospace;
+    }
+  }
+  .starmap-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 35%;
+      height: 35%;
+      padding-bottom: 10px;
+    }
+  }
+  .location-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h3 {
 
+    }
+    p {
+      font-family:'Courier New', Courier, monospace;
+    }
+  }
+  .date-time-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h3 {
+
+    }
+    p {
+      font-family:'Courier New', Courier, monospace;
     }
   }
 }
-@media (min-width: 320px) and (max-width: 414px){
+.section-container-starchart {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+@media (min-width: 320px) and (max-width: 374px){
+  .nav-items {
+    .logo {
+      margin-left: 0 !important;
+    }
+  }
   .title-text {
     top: 50% !important;
     .title {
@@ -117,18 +170,95 @@
   .date h3 {
     font-size: 14px !important;
   }
+  .section-container-starmap {
+    .title-desc {
+      margin-top: 40px;
+      h1 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    .starmap-img {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      img {
+        width: 90%;
+        height: 90%;
+        padding-bottom: 10px;
+      }
+    }
+    .location-text {
+      h3 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    .date-time-text {
+      h3 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
 }
-@media (min-width: 415px) and (max-width: 800px){
+@media (min-width: 375px) and (max-width: 800px){
+  .nav-items {
+    .logo {
+      margin-left: 0 !important;
+    }
+  }
   .title-text {
     top: 50% !important;
     .title {
       h1 {
-        font-size: 45px !important;
+        font-size: 28px !important;
       }
     }
   }
   .date h3 {
     font-size: 14px !important;
+  }
+  .section-container-starmap {
+    .title-desc {
+      margin-top: 40px;
+      h1 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    .starmap-img {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      img {
+        width: 90%;
+        height: 90%;
+        padding-bottom: 10px;
+      }
+    }
+    .location-text {
+      h3 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    .date-time-text {
+      h3 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
   }
 }
 @media (min-width: 992px) and (max-width: 1080px){
@@ -173,7 +303,7 @@
 }
 @media (min-width: 1501px){
   .nav-items ul {
-    margin-left: 40%;
+    margin-left: 45%;
     li {
       padding-left: 5rem;
     }
