@@ -47,7 +47,7 @@ import Navbar from './Navbar'
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['Cheeya!', 'Cheez!', 'Sheera!', 'Shaheera!'],
+        typeArray: ['Cheeya!', 'Shahiddles!', 'Yaya!', 'Shaheera!'],
         typingSpeed: 200,
         erasingSpeed: 100,
         newTextDelay: 2000,

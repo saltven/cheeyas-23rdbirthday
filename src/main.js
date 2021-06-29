@@ -6,6 +6,7 @@ import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import PortalVue from 'portal-vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import VueRouter from 'vue-router'
 
 Vue.config.productionTip = false
 Vue.use(VueParticles)
@@ -17,6 +18,8 @@ Vue.config.productionTip = false
 Vue.use(PortalVue)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
+
+Vue.use(VueRouter)
 
 new Vue({
   render: h => h(App),
