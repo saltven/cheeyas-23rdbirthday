@@ -93,64 +93,68 @@
   }
 }
 .section-container-starmap {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: white;
   position: relative;
-  .title-desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-    h1 {
+  .starmap-items {
+    padding: 40px 0;
+    .title-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
+      p {
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        padding-top: 10px;
+      }
+    }
+    .starmap-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      img {
+        width: 80%;
+        height: 80%;
+      }
+    }
+    .location-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: black;
+      h3 {
+        
+      }
+      p {
+        font-family:'Courier New', Courier, monospace;
+      }
     }
-    p {
-      text-align: center;
-      font-family:'Courier New', Courier, monospace;
-    }
-  }
-  .starmap-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img {
-      width: 35%;
-      height: 35%;
-      padding-bottom: 10px;
-    }
-  }
-  .location-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    h3 {
-
-    }
-    p {
-      font-family:'Courier New', Courier, monospace;
-    }
-  }
-  .date-time-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    h3 {
-
-    }
-    p {
-      font-family:'Courier New', Courier, monospace;
+    .date-time-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      h3 {
+  
+      }
+      p {
+        font-family:'Courier New', Courier, monospace;
+      }
     }
   }
 }
 .section-container-starchart {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: black;
 }
@@ -173,21 +177,11 @@
   }
   .section-container-starmap {
     .title-desc {
-      padding-top: 15px;
       h1 {
         font-size: 18px;
       }
       p {
         font-size: 10px;
-      }
-    }
-    .starmap-img {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      img {
-        width: 90%;
-        height: 90%;
-        padding-bottom: 10px;
       }
     }
     .location-text {
@@ -227,21 +221,11 @@
   }
   .section-container-starmap {
     .title-desc {
-      padding-top: 45px;
       h1 {
         font-size: 18px;
       }
       p {
         font-size: 10px;
-      }
-    }
-    .starmap-img {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      img {
-        width: 90%;
-        height: 90%;
-        padding-bottom: 10px;
       }
     }
     .location-text {
@@ -281,21 +265,11 @@
   }
   .section-container-starmap {
     .title-desc {
-      padding-top: 45px;
       h1 {
         font-size: 18px;
       }
       p {
         font-size: 10px;
-      }
-    }
-    .starmap-img {
-      margin-top: 75px;
-      margin-bottom: 75px;
-      img {
-        width: 90%;
-        height: 90%;
-        padding-bottom: 10px;
       }
     }
     .location-text {
@@ -335,21 +309,11 @@
   }
   .section-container-starmap {
     .title-desc {
-      padding-top: 45px;
       h1 {
         font-size: 18px;
       }
       p {
         font-size: 10px;
-      }
-    }
-    .starmap-img {
-      margin-top: 40px;
-      margin-bottom: 40px;
-      img {
-        width: 90%;
-        height: 90%;
-        padding-bottom: 10px;
       }
     }
     .location-text {
