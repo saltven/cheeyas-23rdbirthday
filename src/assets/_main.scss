@@ -10,6 +10,9 @@
     top: 0;
     .nav-items {
       margin: 30px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       .logo {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         padding-left: 5%;
