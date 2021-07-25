@@ -13,6 +13,9 @@
                         <div class="wish-container">
                             <h4>{{wish.name}}</h4>
                             <p>{{wish.wish}}</p>
+                            <div class="main-img">
+                                <img :src="require(`@/assets/images/${wish.imagetwo}`)" alt="nada">
+                            </div>
                         </div>
                     </div>
                 </div>

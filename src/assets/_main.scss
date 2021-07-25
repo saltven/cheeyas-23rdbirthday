@@ -126,7 +126,6 @@
       margin-bottom: 20px;
       img {
         width: 80%;
-        height: 80%;
       }
     }
     .location-text {
@@ -249,6 +248,16 @@
         }
         .wish-container {
           padding: 0 20px;
+          .main-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 80%;
+              border-radius: 10px;
+              box-shadow: 0px 5px 8px #88888838
+            }
+          }
         }
       }
     }
@@ -459,12 +468,48 @@
       padding-left: 10%;
     }
   }
+  .starmap-img {
+    img {
+      width: 50% !important;
+    }
+  }
+  .wishes-container {
+    .wishes-outer {
+      .wishes-inner {
+        .wish-container {
+          .main-img {
+            img {
+              width: 50% !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media (min-width: 1200px) and (max-width: 1300px){
   .nav-items ul {
     margin-left: 25%;
     li {
       padding-left: 5rem;
+    }
+  }
+  .starmap-img {
+    img {
+      width: 50% !important;
+    }
+  }
+  .wishes-container {
+    .wishes-outer {
+      .wishes-inner {
+        .wish-container {
+          .main-img {
+            img {
+              width: 50% !important;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -475,6 +520,24 @@
       padding-left: 5rem;
     }
   }
+  .starmap-img {
+    img {
+      width: 50% !important;
+    }
+  }
+  .wishes-container {
+    .wishes-outer {
+      .wishes-inner {
+        .wish-container {
+          .main-img {
+            img {
+              width: 50% !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media (min-width: 1428px) and (max-width: 1500px){
   .nav-items ul {
@@ -483,12 +546,44 @@
       padding-left: 5rem;
     }
   }
+  .starmap-img {
+    img {
+      width: 50% !important;
+    }
+  }
+  .wishes-container {
+    .wishes-outer {
+      .wishes-inner {
+        .wish-container {
+          .main-img {
+            img {
+              width: 50% !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media (min-width: 1501px){
   .nav-items ul {
     margin-left: 45%;
     li {
       padding-left: 5rem;
+    }
+  }
+  .starmap-img {
+    img {
+      width: 50% !important;
+    }
+  }
+  .wishes-container {
+    .wish-container {
+      .main-img {
+        img {
+          width: 50% !important;
+        }
+      }
     }
   }
 }

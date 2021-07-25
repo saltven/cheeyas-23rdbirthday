@@ -1,14 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Ammar Hazrin",
+        "name": "Her friend's name",
         "image": "test-avatar.jpg",
-        "wish": "Your ascendaes off as intimidating and powerful if not malicious or aggressiv"
+        "wish": "Hey Cheeya, this is a wish. Your birthday wish. Yes, your birthday wish from me Cheeya. Surprised? Yeah me too. Honestly, this is a hard coded dummy wish heh only for testing tho. Bcs yknow this website is currently in a development stage so you gotta test here and there yaknow what im sayin. Yea life as a dev. Pretty boring... Im just tryna make this long so that i can cater the CSS to be responsive. Im pretty sure most of her friends use a phone to get on this website so yea i need to make this website responsive. Yea yea i could use bootstrap and what not but where's the fun?!??!?! I need to challenge myself by making everything from scratch to be better. Life is not all about having shortcuts. You need to know the hard life before you can have an easy life. That's if you want to have an easy life consistently in the future la. Omg this is pretty long. I know i can be a bit philosophical but im just rambling. Ok stop it ammar this is enough i guess. I mean i could use lorem ipsum but nyeh. From scratch kan.. Ambik kau. HahAhAHhahAHa wtf ammar cringe bodo. Okok move on this is good enough... I guess? Let's see.",
+        "imagetwo": "belli-image.jpeg"
+        
     },
     {
         "id": 2,
-        "name": "Ammar Hazrin",
-        "image": "test-avatar.jpg",
-        "wish": "Your ascendant is the you present to people. It can be seen in your personal style and how you come off to people when you first meet. Some say it becomes less relevant as you get older. It changes every two hours, so if it doesn't make sense, text your mom to confirm your birth time. Your Ascendant is in Scorpio, meaning you come across as passionate, incisive, cunning, strategic, and perceptive. Your intense and tenacious drive comes off as intimidating and powerful if not malicious or aggressiv"
+        "name": "Belli",
+        "image": "belli-avatar.jpeg",
+        "wish": "HAPPY BIRTHDAY TO THE HOTTEST!! BADDEST!! BITTY IN THE WORLD!!!! 🥳🥳💕💕💜 you’re an amazing person inside and out and super strong willed (don’t let anyone/yourself tell you otherwise). ilysm, imy and stay hot, xoxo💕",
+        "imagetwo": "belli-image.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Azreena",
+        "image": "user-icon.png",
+        "wish": "HAPPY 23RD BIRTHDAY SHAHEERA! I just want to say that I am so extremely grateful that you decided to talk to me in Form 3 and ask to be my desk mate because that decision that you made is why I am so blessed to be able to call you my best friend today. You are so beautiful, kind, loving, nurturing, funny, bubbly, strong, resilient, selfless, brave, confident and the list could go on and on because there is just so much to love about you and to know you is to love you, Shaheera.You've helped me through some of the darkest days of my life and without you and your love, I really would not have been able to have gotten through those days. Thank you for being so patient with me and for never getting tired of reassuring and comforting me whenever I need you.\n\nYou mean the world to me and you deserve good things and I sincerely pray that Allah swt blesses you not only with good health, love, happiness, good health and success but I also hope He gives you all that your heart desires and more to fulfil you in this life and also the next. Crossing paths with you when we were 15 was probably one of the best gifts Allah has ever given me because not only has it given me the privilege of being a part of your life and knowing you but also the privilege to grow with you, laugh with you, cry with you and the blessing of a companion to get through life's many ups and downs with. We literally grew up together and I really wouldn't have it any other way. Thank you for being you, Shaheera, I sincerely believe that you are a gift to everyone whose lives you are in.\nHappy Birthday once again Shachem/Shaheera Zidan (hehe) I hope you have an amazing day today ♥️",
+        "imagetwo": "belli-image.jpeg" 
+    },
+    {
+        "id": 4,
+        "name": "Madtings",
+        "image": "madiha-avatar.jpeg",
+        "wish": "happy birthday cheeya! my candy crush sifu!! thank you for always lighting up the room whenever youre around. ive never met anyone that can articulate someones thoughts and feelings so well. you are truly one of a kind, and i cant thank you enough for being such a kind soul. i know we joke a lot about the senior/junior thing but above all, you will always be my good friend that i cherish forever. i know you will always have my back & i hope you know i will strive to do the same, if not more. hope we get to spend more time together and create more memories together! love youuu, and please dont lean in to kiss me again HAHAHA. have a good 23rd!",
+        "imagetwo": "madiha-image.jpeg" 
     }
 ]
+
