@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import PortalVue from 'portal-vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueRouter from 'vue-router'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 Vue.config.productionTip = false
 Vue.use(VueParticles)
@@ -23,6 +25,9 @@ Vue.use(VueRouter)
 
 new Vue({
   render: h => h(App),
+  mounted() {
+    AOS.init()
+  },
 }).$mount('#app')
 
 

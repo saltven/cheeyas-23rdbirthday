@@ -1,12 +1,12 @@
 <template >
     <div class="section-container-wishes">
         <div class="wishes-items">
-            <div class="wishes-title">
+            <div class="wishes-title" data-aos="zoom-in" data-aos-duration="1000">
                 <h1>Birthday Wishes</h1>
             </div>
             <div class="wishes-container">
                 <div class="wishes-outer">
-                    <div class="wishes-inner" v-for="wish in wishes" :key="wish.id">
+                    <div class="wishes-inner" v-for="wish in wishes" :key="wish.id" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="avatar-img">
                             <img :src="require(`@/assets/images/${wish.image}`)" alt="nada">
                         </div>

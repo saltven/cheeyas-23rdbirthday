@@ -1,10 +1,10 @@
 <template>
     <div class="section-container-starchart">
         <div class="starchart-items">
-            <div class="starchart-title">
+            <div class="starchart-title" data-aos="zoom-in" data-aos-duration="1000">
                 <h1>Your Star Chart</h1>
             </div>
-            <div class="starchart-signs">
+            <div class="starchart-signs" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="signs">
                     <img src="../assets/images/sun-white.png" alt="">
                     <p>Leo</p>
@@ -20,7 +20,7 @@
             </div>
             <div class="starchart-desc-container">
                 <div class="desc-outer">
-                    <div class="desc-inner">
+                    <div class="desc-inner" data-aos="zoom-in" data-aos-duration="1000">
                         <img src="../assets/images/sun-white.png" alt="">
                         <p>Sun</p>
                         <p>Leo, 10th House</p>
@@ -31,13 +31,13 @@
     know what your skills are and how to use them. It's in your tenth house, meaning you feel 
     the need to distinguish yourself from others through goals, success, and responsibility.</p>
                     </div>
-                    <div class="desc-inner">
+                    <div class="desc-inner" data-aos="zoom-in" data-aos-duration="1000">
                         <img src="../assets/images/moon(1).png" alt="">
                         <p>Moon</p>
                         <p>Scorpio, 3rd House</p>
                         <p>The moon rules your emotions, moods, and feelings. This is likely the sign you most think of yourself as, since it reflects your personality when you're alone or deeply comfortable. Your Moon is in Capricorn, meaning your emotional self is somewhat repressed in the name of responsibility, seriousness, and rationality. You crave the guidance and comfort of a teacher or parent. It's in your third house, meaning you find security and safety through the things you know and are familiar with.</p>
                     </div>
-                    <div class="desc-inner">
+                    <div class="desc-inner" data-aos="zoom-in" data-aos-duration="1000">
                         <img src="../assets/images/up-arrow(1).png" alt="">
                         <p>Ascendant</p>
                         <p>Capricon, 1st House</p>
