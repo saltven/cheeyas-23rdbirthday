@@ -18,6 +18,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="signature">
+                        <h4>2021 • Built from scratch using <a href="https://vuejs.org/"><img src="@/assets/images/logo.png" alt="nada"></a> by Ammar Hazrin</h4>
+                    </div>
                 </div>
             </div>
         </div>
