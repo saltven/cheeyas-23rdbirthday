@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Her friend's name",
         "image": "test-avatar.jpg",
-        "wish": "Hey Cheeya, this is a wish. Your birthday wish. Yes, your birthday wish from me Cheeya. Surprised? Yeah me too. Honestly, this is a hard coded dummy wish heh only for testing tho. Bcs yknow this website is currently in a development stage so you gotta test here and there yaknow what im sayin. Yea life as a dev. Pretty boring... Im just tryna make this long so that i can cater the CSS to be responsive. Im pretty sure most of her friends use a phone to get on this website so yea i need to make this website responsive. Yea yea i could use bootstrap and what not but where's the fun?!??!?! I need to challenge myself by making everything from scratch to be better. Life is not all about having shortcuts. You need to know the hard life before you can have an easy life. That's if you want to have an easy life consistently in the future la. Omg this is pretty long. I know i can be a bit philosophical but im just rambling. Ok stop it ammar this is enough i guess. I mean i could use lorem ipsum but nyeh. From scratch kan.. Ambik kau. HahAhAHhahAHa wtf ammar cringe bodo. Okok move on this is good enough... I guess? Let's see.",
+        "wish": "Yes, I have been spending time doing my \"work\"",
         "imagetwo": "belli-image.jpeg"
         
     },
@@ -153,6 +153,34 @@
         "image": "nadea-avatar.jpg",
         "wish": "Happy birthday Dodols 🤍🤍🤍 I’ll never stop saying it but I’ve always just LOVED your energy and admired the way you carry yourself. You’re one of the most authentic, wholesome, funny, and cool person I know (and also you’re rlly hot). Forever my fav leo, Potterhead & Marvel fan to exist in this world. Miss ya & love u forever bubz. -Nodeo",
         "imagetwo": "nadea-image.jpg" 
+    },
+    {
+        "id": 23,
+        "name": "Nurin",
+        "image": "nurin-avatar.jpeg",
+        "wish": "Happy Birthday Cheeya!! We’re so lucky to have you in our lives and we love you ♥️♥️♥️",
+        "imagetwo": "nurin-image.jpeg" 
+    },
+    {
+        "id": 24,
+        "name": "Yasmin Adlena",
+        "image": "user-icon.png",
+        "wish": "Heyy! I know we’re not that close! But happy birthday! Hope you will have a good one! May Allah bless you always and hope we can see each other real soon! Stay safe wherever you are and if u want to talk about anything just hit me up!❤️❤️🤍🤍🤍 (ps sorry i dont have picture with you, will do though soon <3)",
+        "imagetwo": "yasmin-image.jpeg" 
+    },
+    {
+        "id": 25,
+        "name": "Franciska",
+        "image": "franciska-avatar.jpg",
+        "wish": "HAPPY BIRTHDAY SHAHEERA!!💘💘 I hope you have a blast!! Dont let this pandemic ruin your celebrations hehe im so glad we got to catch up again after what feels like forever, you are sucha ray of sunshine to be around and i hope we get to hang again soon!! Sending lots of love and hugs your way 🥳💖🥰💞",
+        "imagetwo": "franciska-image.jpg" 
+    },
+    {
+        "id": 26,
+        "name": "Les, Ash, Harith, Stef, Julian & Marcus",
+        "image": "les-avatar.jpeg",
+        "wish": "HAPPY BIRTHDAY CHEEYA!!!!!!! we hope you have the best day despite this shitty lockdown :') thanks for being such a solid friend throughout all these years, it's so crazy how we all grew up together and are still friends today. can't believe we've all known each other for 16 YEARS now wtF!!! love you and miss you and we hope we get to see you soon and it's so obvious it's just me (les) writing this HAHAHA anyway have the best birthday u deserve it!!!!!! <3",
+        "imagetwo": "les-image.jpg" 
     }
 ]
 

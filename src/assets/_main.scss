@@ -93,6 +93,15 @@
         -o-animation: fadein 3s; /* Opera */
       }
     }
+    .click-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        color: white;
+        font-size: 18px;
+      }
+    }
   }
 }
 .section-container-starmap {
