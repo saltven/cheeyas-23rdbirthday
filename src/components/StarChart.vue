@@ -11,7 +11,7 @@
                 </div>
                 <div class="signs">
                     <img src="../assets/images/moon(1).png" alt="">
-                    <p>Capricon</p>
+                    <p>Capricorn</p>
                 </div>
                 <div class="signs">
                     <img src="../assets/images/up-arrow(1).png" alt="">
@@ -34,7 +34,7 @@
                     <div class="desc-inner" data-aos="zoom-in" data-aos-duration="1000">
                         <img src="../assets/images/moon(1).png" alt="">
                         <p>Moon</p>
-                        <p>Capricon, 3rd House</p>
+                        <p>Capricorn, 3rd House</p>
                         <p>The moon rules your emotions, moods, and feelings. This is likely the sign you most think of yourself as, since it reflects your personality when you're alone or deeply comfortable. Your Moon is in Capricorn, meaning your emotional self is somewhat repressed in the name of responsibility, seriousness, and rationality. You crave the guidance and comfort of a teacher or parent. It's in your third house, meaning you find security and safety through the things you know and are familiar with.</p>
                     </div>
                     <div class="desc-inner" data-aos="zoom-in" data-aos-duration="1000">
